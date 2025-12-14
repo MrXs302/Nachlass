@@ -1,0 +1,3 @@
+// Direcciones de los contratos desplegados en tu Ganache (TU INSTANCIA LOCAL)
+export const PERSONAS_ADDRESS = "0x782e185F2360c10C080B4e6c83c7e0d52678DE36";
+export const HERENCIA_ADDRESS = "0x31aE0473965375332144676d0D23bf1d43C54620";

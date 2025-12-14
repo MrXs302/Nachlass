@@ -19186,15 +19186,97 @@
     "version": "0.8.21+commit.d9974bed.Emscripten.clang"
   },
   "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x3e17cb7962cBDCb89df901B2B917f8C7a927B7bc",
+      "transactionHash": "0x186b4b65f5f666f0d0e4fecefe10dcbae8868ff60e6127dae7bd49dad1f23bb6"
+    },
     "1765674995159": {
       "events": {},
       "links": {},
       "address": "0x31aE0473965375332144676d0D23bf1d43C54620",
       "transactionHash": "0xbc4baa9d0075acee05d996286f4b5f395e4cffc59017744e66c3088784d5afcc"
+    },
+    "1765748496432": {
+      "events": {},
+      "links": {},
+      "address": "0x2460287883b94420F11B912bE8D609aA90E015c7",
+      "transactionHash": "0xa29b1ba80646be21112de70c6e00dcd4d9facd37b3a9627d67a3420a0aa8bab1"
+    },
+    "1765749506232": {
+      "events": {
+        "0xf3f0780a13a90b4676a584e44dc42abf01b6ca4f6496f60cf894767ff6b3382f": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "_ciTestador",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "_ciHeredero",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "_walletHeredero",
+              "type": "address"
+            }
+          ],
+          "name": "HerenciaCreada",
+          "type": "event"
+        },
+        "0x7a5656087b2928e49bc0a6adaf2905d142594c14b7957930576ad8ec1946efcc": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "_ciHeredero",
+              "type": "string"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_walletHeredero",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "_monto",
+              "type": "uint256"
+            }
+          ],
+          "name": "HerenciaReclamada",
+          "type": "event"
+        },
+        "0xa8bde853568529c4f5f15a1eb7173a35dfa29d075da2fcff516be1a35c2a7a5d": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_activador",
+              "type": "address"
+            }
+          ],
+          "name": "PruebaFallecimientoActivada",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xD4811A422d6D3Fb94aADcfc0DEae5c1a0Efc8baE",
+      "transactionHash": "0xd3f6ebd060fc09d24ccc592360a35e2a14b8e1a6c6b10c2b3439ae32070fc4ba"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-12-14T01:49:21.438Z",
+  "updatedAt": "2025-12-14T22:16:02.877Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
